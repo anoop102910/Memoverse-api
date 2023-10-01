@@ -36,7 +36,8 @@ app.use("/api/post", postRoute);
 app.use("/api/user", userRoute);
 
 
-app.listen(5000, (error) => {
+const port = process.env.PORT
+app.listen(port, (error) => {
   if (error) console.log(error);
-  console.log("Listening on port number 5000");
+  console.log( `Listening on post number ${port}`);
 });
