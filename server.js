@@ -21,7 +21,7 @@ mongoose
   });
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://memo-verrse.onrender.com",
   credentials: true,
   methods: "GET,POST,PATCH,DELETE",
   optionsSuccessStatus: 204,
